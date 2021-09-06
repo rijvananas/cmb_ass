@@ -13,3 +13,5 @@ npx cypress run
 
 or 
 npx cypress open and click the testcase.spec.js 
+
+**** API Test - i will add it tomorrow****
