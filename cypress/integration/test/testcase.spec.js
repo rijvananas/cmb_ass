@@ -52,9 +52,5 @@ describe('Regression Scenarios',() =>{
         
 
 
-       // cy.url().should('include','index.php');
-        //cy.get('#load_box > #load_form > :nth-child(5) > input').type('Rijvana');
-       // cy.get('#load_box > #load_form > :nth-child(5) > input').type('0466993966');
-        //cy.title().should('Contain','Welcome');
-   // })
+       
 })
