@@ -2,7 +2,6 @@
   "name": "automation--cypress",
   "version": "1.0.0",
   "main": "index.js",
-  
   "author": "Rijvana",
   "license": "ISC",
   "devDependencies": {
@@ -11,5 +10,8 @@
     "cypress-xpath": "^1.6.2",
     "mocha": "^9.0.2",
     "mochawesome": "^6.2.2"
+  },
+  "dependencies": {
+    "cypress-multi-reporters": "^1.5.0"
   }
 }

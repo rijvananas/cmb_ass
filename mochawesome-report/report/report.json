@@ -1,0 +1,57 @@
+{
+  "stats": {
+    "suites": 0,
+    "tests": 0,
+    "passes": 0,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-09-07T11:20:58.304Z",
+    "end": "2021-09-07T11:20:58.310Z",
+    "duration": 6,
+    "testsRegistered": 0,
+    "passPercent": null,
+    "pendingPercent": null,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    false
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "report",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": false
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "overwrite": false,
+        "reportDir": "mochawesome-report/report/",
+        "reportFilename": "report",
+        "reportTitle": "Test Automation Report",
+        "showPassed": true,
+        "showFailed": true,
+        "showSkipped": false,
+        "reportPageTitle": "Automation Report",
+        "inline": true,
+        "code": false,
+        "charts": true,
+        "html": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

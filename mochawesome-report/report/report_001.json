@@ -1,0 +1,214 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 6,
+    "passes": 5,
+    "pending": 0,
+    "failures": 1,
+    "start": "2021-09-07T11:21:04.361Z",
+    "end": "2021-09-07T11:21:10.644Z",
+    "duration": 6283,
+    "testsRegistered": 6,
+    "passPercent": 83.33333333333334,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "e3b559db-e5f2-4270-ab73-bc210c2c3e4d",
+      "title": "",
+      "fullFile": "cypress/integration/test/API/specs/userJourneyApi.js",
+      "file": "cypress/integration/test/API/specs/userJourneyApi.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "780a938c-5ca5-44f2-8ea2-57f7515b87b7",
+          "title": "API - Regression Scenarios ",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Get Auth Token ",
+              "fullTitle": "API - Regression Scenarios  Get Auth Token ",
+              "timedOut": null,
+              "duration": 2948,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "9d68b114-bcbd-474a-8f75-3c42e0b8e2b3",
+              "parentUUID": "780a938c-5ca5-44f2-8ea2-57f7515b87b7",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Verify the Token ",
+              "fullTitle": "API - Regression Scenarios  Verify the Token ",
+              "timedOut": null,
+              "duration": 662,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "b21579ed-828d-4494-bbef-6d5acbf5e51c",
+              "parentUUID": "780a938c-5ca5-44f2-8ea2-57f7515b87b7",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Get the users list ",
+              "fullTitle": "API - Regression Scenarios  Get the users list ",
+              "timedOut": null,
+              "duration": 454,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "21273980-dc99-4558-a71c-9976bfd4da61",
+              "parentUUID": "780a938c-5ca5-44f2-8ea2-57f7515b87b7",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Add a new user ",
+              "fullTitle": "API - Regression Scenarios  Add a new user ",
+              "timedOut": null,
+              "duration": 659,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "1306f442-e3f1-44bc-813a-b8826cae43a6",
+              "parentUUID": "780a938c-5ca5-44f2-8ea2-57f7515b87b7",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": " Update user ",
+              "fullTitle": "API - Regression Scenarios   Update user ",
+              "timedOut": null,
+              "duration": 654,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "07bc7705-7731-4114-841b-ac0516100174",
+              "parentUUID": "780a938c-5ca5-44f2-8ea2-57f7515b87b7",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": " Delete user ",
+              "fullTitle": "API - Regression Scenarios   Delete user ",
+              "timedOut": null,
+              "duration": 766,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {
+                "message": "AssertionError: expected 401 to equal 204",
+                "estack": "AssertionError: expected 401 to equal 204\n    at Context.eval (http://localhost:62909/__cypress/tests?p=cypress\\integration\\test\\API\\specs\\userJourneyApi.js:281:34)",
+                "diff": "- 401\n+ 204\n"
+              },
+              "uuid": "3e4cca80-e394-4d97-b96c-dd15e0b93441",
+              "parentUUID": "780a938c-5ca5-44f2-8ea2-57f7515b87b7",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "9d68b114-bcbd-474a-8f75-3c42e0b8e2b3",
+            "b21579ed-828d-4494-bbef-6d5acbf5e51c",
+            "21273980-dc99-4558-a71c-9976bfd4da61",
+            "1306f442-e3f1-44bc-813a-b8826cae43a6",
+            "07bc7705-7731-4114-841b-ac0516100174"
+          ],
+          "failures": [
+            "3e4cca80-e394-4d97-b96c-dd15e0b93441"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 6143,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "report",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": false
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "overwrite": false,
+        "reportDir": "mochawesome-report/report/",
+        "reportFilename": "report",
+        "reportTitle": "Test Automation Report",
+        "showPassed": true,
+        "showFailed": true,
+        "showSkipped": false,
+        "reportPageTitle": "Automation Report",
+        "inline": true,
+        "code": false,
+        "charts": true,
+        "html": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

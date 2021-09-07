@@ -1,0 +1,152 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 3,
+    "passes": 3,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-09-07T11:21:20.967Z",
+    "end": "2021-09-07T11:21:43.710Z",
+    "duration": 22743,
+    "testsRegistered": 3,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "ef288320-c43d-4bb8-9d5a-79aaea98d1a2",
+      "title": "",
+      "fullFile": "cypress/integration/test/WEB/testcase.spec.js",
+      "file": "cypress/integration/test/WEB/testcase.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "0da0cab9-9f08-4ff4-aa2e-a5e96790452d",
+          "title": "Regression Scenarios",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Navigate to the Website",
+              "fullTitle": "Regression Scenarios Navigate to the Website",
+              "timedOut": null,
+              "duration": 3616,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "fa6be570-9450-415a-92a8-a3df93f3451e",
+              "parentUUID": "0da0cab9-9f08-4ff4-aa2e-a5e96790452d",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Start the journey",
+              "fullTitle": "Regression Scenarios Start the journey",
+              "timedOut": null,
+              "duration": 8180,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "ec1099e8-723a-4873-930b-755d629fa4ed",
+              "parentUUID": "0da0cab9-9f08-4ff4-aa2e-a5e96790452d",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Play the challenge",
+              "fullTitle": "Regression Scenarios Play the challenge",
+              "timedOut": null,
+              "duration": 7710,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "d2f09435-685f-4f59-8922-7069576d4b4f",
+              "parentUUID": "0da0cab9-9f08-4ff4-aa2e-a5e96790452d",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "fa6be570-9450-415a-92a8-a3df93f3451e",
+            "ec1099e8-723a-4873-930b-755d629fa4ed",
+            "d2f09435-685f-4f59-8922-7069576d4b4f"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 19506,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "report",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": false
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "overwrite": false,
+        "reportDir": "mochawesome-report/report/",
+        "reportFilename": "report",
+        "reportTitle": "Test Automation Report",
+        "showPassed": true,
+        "showFailed": true,
+        "showSkipped": false,
+        "reportPageTitle": "Automation Report",
+        "inline": true,
+        "code": false,
+        "charts": true,
+        "html": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

@@ -1,1 +1,36 @@
-{}
+{
+        "projectId": "COVID19 the game - villain",
+        "integrationFolder": "cypress/integration/test",
+        "supportFile": "cypress/support",
+        "pluginsFile": "cypress/plugins",
+        "video": true,
+        "screenshotsFolder": "cypress/screenshots",
+        "videosFolder": "cypress/videos",
+        "viewportWidth": 1440,
+        "viewportHeight": 960,
+        "retries": 0,
+        "watchForFileChanges": false,
+        "chromeWebSecurity": false,
+        "pageLoadThreshold": 50000,
+        "searchTimeout": 30000,
+        "reporter": "cypress-multi-reporters",
+    "reporterOptions": {
+        "reporterEnabled": "mochawesome",
+        "mochawesomeReporterOptions": {
+            "overwrite": false,
+            "reportDir": "mochawesome-report/report/",
+            "reportFilename": "report",
+            "reportTitle": "Test Automation Report",
+            "showPassed": true,
+            "showFailed": true,
+            "showSkipped": false,
+            "reportPageTitle": "Automation Report",
+            "inline": true,
+            "code": false,
+            "charts": true,
+            "html": true
+        }
+    }
+       
+  
+}
