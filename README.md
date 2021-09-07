@@ -24,12 +24,8 @@ Use the below command to run the program.
 npx cypress run
 
 or 
-<<<<<<< HEAD
+
 npx cypress open and click the testcase.spec.js or  userJourneyApi.js  
 
 
-=======
-npx cypress open and click the testcase.spec.js 
 
-**** API Test - i will add it tomorrow****
->>>>>>> origin/main
